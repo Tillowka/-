@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://st2.depositphotos.com/5897520/85343/i/450/depositphotos_853435416-stock-photo-hourglass-flowing-sand-stacked-gold.jpg) ;
+    background-repeat:no-repeat ;
+    background-size:cover;
+}
+header  h1{
+    color: white;
+}
+header .div-tepa{
+    width: 100%;
+}
+header .div-tepa h1{
+    font-size: 60px;
+}
+main .div-menu{
+      width: 400px;
+    height: 400px;
+    
+    margin: 100px auto;
+    text-align: center; 
+}
+main .menu{
+    width: 250px;
+    height: 250px;
+    
+    margin: 0px auto;
+    text-align: center; 
+    line-height: 50px;
+}
+
+
+.menu ul{
+    font-size: 40px;
+}
+.menu ul li{
+    margin-top: 20px;
+    padding: 10px 40px 10px 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    list-style-image: url(./free-icon-coin-3305481\ \(2\).png);
+    color: white;
+   
+}
+.menu ul li:hover{
+    color:rgb(255, 191, 0);
+ transform: translateY(-5px);
+ box-shadow: 0px 29px 8px -8px rgba(255,255,255,0.77);
+}
+a{
+    text-decoration: none;
+}
